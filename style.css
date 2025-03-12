@@ -42,7 +42,7 @@ a {
 
 .newsletter-card a button {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 8px;
     padding: 12px 24px;
@@ -65,6 +65,28 @@ a {
 }
 
 #icon {
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
+}
+
+#icon2 {
+    width: 24px;
+    height: 24px;
+}
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    #desktop-view-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #mobile-view-btn {
+        display: none;
+    }
 }
